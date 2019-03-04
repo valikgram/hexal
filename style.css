@@ -58,14 +58,42 @@ header {
       color: #2eb398;
   }
 
-.item-logo {
-
-}
-
  main {
      background-color: white;
  }
 
+
+ .hexagon {
+
+width: 180px;
+height: 210px;
+margin: 10px;
+padding-top: 250px;
+transform: rotate(120deg);
+overflow: hidden;
+visibility: hidden;
+display: inline-block;
+position: relative;
+top: 90px;
+left: 435px;
+ }
+ .hex-layer-1 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+ }
+
+ .hex-layer-2 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;
+    background-image: url("assets/images/hexals/Layer\ 33.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+ }
  footer {
     background-color: #323232;
  }
