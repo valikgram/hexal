@@ -3,9 +3,10 @@ body {
   margin: 0;
 }
 
-/* h1 {
-  overflow: hidden;
-} */
+h1 {
+  position: absolute;
+  visibility: hidden;
+} 
 
  @font-face { 
    font-family: MavenPro-Regular;
